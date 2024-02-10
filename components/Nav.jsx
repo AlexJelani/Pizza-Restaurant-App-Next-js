@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMenu, AiOutlinePhone } from 'react-icons/ai';
 import { BsInstagram, BsFacebook, BsTwitter } from "react-icons/bs";
 import logo from '../public/img/logo.png';
 import Modal from './Modal';
@@ -16,9 +16,12 @@ const Navbar = () => {
   return (
       <div className="w-full shadow-md shadow-black-300 bg-red-500 fixed top-0 left-0 right-0 z-10 h-12 md:h-16 2xl:h-20">
         <div className="justify-between md:justify-evenly 2xl:justify-around 2xl:mr-20 flex px-4 mr-5 mx-auto lg:max-w-7xl md:items-center md:px-8 h-10">
-          <div>
-            <a href='#main'>
-              <h1 className='text-white font-medium text-2xl 2xl:text-3xl 2xl:mt-10 hover:scale-110 duration-200 md:mt-5'>Order Now! 777-888-999</h1>
+          <div className="flex items-center">
+            <a href="tel:090-1862-1728">
+              <AiOutlinePhone size={40} className="text-white mr-2 mt-3 transform rotate-180" /> {/* Phone icon with margin top */}
+            </a>
+            <a href="tel:090-1862-1728">
+              <h1 className='text-white font-medium text-2xl 2xl:text-3xl 2xl:mt-10 hover:scale-110 duration-200 md:mt-5'>090-1862-1728</h1>
             </a>
           </div>
           <div className="hidden md:block">
