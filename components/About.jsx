@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import place from '../public/img/restaurant.jpg';
+import place from '../public/img/takipizzabout.png';
 
 function About() {
 
