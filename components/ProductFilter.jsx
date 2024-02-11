@@ -12,9 +12,9 @@ export default function ProductFilter() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
-            <div className="container mx-auto pt-5 pb-10">
-                <h1 className="text-3xl font-bold mb-5">All Product</h1>
+        <div className="bg-white min-h-screen " >
+            <div className="container mx-auto pt-5 pb-10" id='menu'>
+                <h1 className="text-3xl font-bold mb-5" >All Product</h1>
                 <div className="flex justify-center mb-5 space-x-3">
                     <button
                         className="bg-red-500 text-white px-4 py-2 rounded-md"
