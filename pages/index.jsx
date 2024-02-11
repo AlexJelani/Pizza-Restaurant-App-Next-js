@@ -5,6 +5,7 @@ import Main from '@/components/Main';
 import Menu from '@/components/Menu';
 import Navbar from '@/components/Nav';
 import Head from 'next/head';
+import ProductFilter from "@/components/ProductFilter.jsx";
 
 export default function Home() {
 
@@ -20,7 +21,8 @@ export default function Home() {
       <Navbar/>
       <Main/>
       <About/>
-      <Menu/>
+      {/*<Menu/>*/}
+          <ProductFilter/>
       <Contact/>
       <Footer/>
       </main>

@@ -14,7 +14,14 @@ html {
   font-family: "sans", sans-serif;
   src: url("../public/GentiumBookBasic-Italic.ttf");
 }
-
+.card{
+  height:400px !important;
+  margin-top: 20px !important;
+}
+.img-fluid{
+  height:300px !important;
+  width: 300px !important;
+}
 /* Scroll bar */
 
 ::-webkit-scrollbar {
