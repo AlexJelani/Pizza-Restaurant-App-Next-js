@@ -12,9 +12,9 @@ export default function ProductFilter() {
     };
 
     return (
-        <div className="bg-white min-h-screen " >
-            <div className="container mx-auto pt-5 pb-10" id='menu'>
-                <h1 className="text-3xl font-bold mb-5" >All Product</h1>
+        <div className="bg-white min-h-screen " id='menu' >
+            <div className="container mx-auto pt-5 pb-10" >
+                <h1 className="text-3xl font-bold mb-5 " >All Product</h1>
                 <div className="flex justify-center mb-5 space-x-3">
                     <button
                         className="bg-red-500 text-white px-4 py-2 rounded-md"
@@ -53,10 +53,10 @@ export default function ProductFilter() {
                         <div key={index} className="card">
                             <img src={val.image} className="card-img-top img-fluid p-3" alt="..." />
                             <div className="card-body">
-                                <div className="flex justify-between">
+                                {/*<div className="flex justify-between">*/}
                                     <p>{val.title.substring(0, 15)}</p>
-                                    <p className="badge bg-primary">{val.category}</p>
-                                </div>
+                                    <p className="bg-blue-500 text-white px-2 py-1 rounded-md">{val.category}</p>
+                                {/*</div>*/}
                             </div>
                         </div>
                     ))}
