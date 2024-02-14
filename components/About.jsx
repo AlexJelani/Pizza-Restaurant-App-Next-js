@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import place from '../public/img/takipizzabout.png';
+import place from '../public/img/aboutakipizza.png';
 
 function About() {
 
@@ -16,7 +16,7 @@ function About() {
                     <p className='text-2xl xl:text-3xl 2xl:text-4xl mt-3 md:py-14 md:mt-10'>Check out our delicious menu!</p>
                 </div>
                 <div className='w-full items-center justify-center grid md:mt-10 pt-10'>
-                    <Image src={place} width={500} alt='place' className='mb-10' />
+                    <Image src={place} width={500} height={400} alt='place' className='mb-10' />
                 </div>
             </div>
         </section>
