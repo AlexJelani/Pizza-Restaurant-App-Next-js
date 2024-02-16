@@ -18,9 +18,9 @@ function Footer () {
         </div>
       </div>
         <hr className="w-1/2 mx-auto h-0.5 bg-white"></hr>
-      <div className="bg-red-500 pt-2 pb-2 text-center"> © 2023 Copyright: Bartosz Jarzyło
+      <div className="bg-red-500 pt-2 pb-2 text-center"> © 2024 Copyright: Jelani Alexander
       </div>
-    </footer>    
+    </footer>
   );
 };
 
